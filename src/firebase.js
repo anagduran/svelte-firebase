@@ -1,7 +1,9 @@
-import firebase from 'firebase/app';
-import 'firebase/firestore';
-import 'firebase/auth';
+import firebase from 'firebase/app'
+import 'firebase/firestore'
+import 'firebase/auth'
 
+
+//import 'firebase/storage'
 // Your web app's Firebase configuration
   var firebaseConfig = {
     apiKey: "AIzaSyD8TIlrMODyepnT2riAcg2NRxyw8Ivbxo0",
@@ -17,3 +19,4 @@ import 'firebase/auth';
 
   export const db = firebase.firestore()
   export const auth = firebase.auth()
+  //export const storage = firebase.storage().ref()
